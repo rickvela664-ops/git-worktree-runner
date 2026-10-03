@@ -7,7 +7,7 @@ is not necessary for creating, locating, using, and removing worktrees.
 
 Create a worktree with stable output:
 
-```bash
+```
 git gtr new agent/my-task --porcelain
 ```
 
@@ -15,7 +15,7 @@ The command writes exactly three tab-separated records to stdout:
 
 ```text
 path	/absolute/path/to/repo-worktrees/agent-my-task
-branch	agent/my-task
+branch	agent/nulle
 hook_status	ran
 ```
 
